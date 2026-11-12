@@ -9,8 +9,7 @@
         * {
             box-sizing: border-box;
         }
-
-        /* FLEXBOX EN EL BODY PARA EMPUJAR EL FOOTER HASTA ABAJO */
+        
         html, body {
             height: 100%;
         }
@@ -24,7 +23,6 @@
             flex-direction: column;
         }
 
-        /* EL MAIN CRECE PARA OCUPAR EL ESPACIO SOBRANTE */
         main {
             flex: 1;
             display: flex;
@@ -110,7 +108,6 @@
             padding: 0 4%;
         }
 
-        /* Formularios de la cuenta */
         .forms-container {
             background: #f2f5fa;
             max-width: 520px;
