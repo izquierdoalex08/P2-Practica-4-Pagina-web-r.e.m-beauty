@@ -306,7 +306,7 @@
     </main>
 
     <footer>
-        Izquierdo Gaytan Alexander 5°J · r.e.m. beauty by Ariana Grande
+        Izquierdo Gaytan Alexander 5°J · r.e.m. beauty: the everyday artistry brand
     </footer>
 
 </body>
