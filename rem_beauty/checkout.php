@@ -22,7 +22,7 @@ $total = $subtotal + $envio;
 
 $mensaje_exito = false;
 
-// PROCESAR LA COMPRA AL ENVIAR FORMULARIO
+// Procesar la compra al enviar formulario
 if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST["realizar_pedido"])) {
     $email = trim($_POST["email"] ?? "");
     $nombre = trim($_POST["nombre"] ?? "") . " " . trim($_POST["apellido"] ?? "");
@@ -86,7 +86,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST["realizar_pedido"])) {
         .checkout-header { text-align: center; padding: 25px 0; border-bottom: 1px solid #eee; }
         .checkout-header .logo { font-size: 26px; font-weight: 800; letter-spacing: -1.5px; text-decoration: none; color: inherit; display: inline-block; }
 
-        /* GRID PRINCIPAL AMPLIADO A 3 COLUMNAS */
         .checkout-container { 
             display: grid; 
             grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.9fr) minmax(260px, 0.8fr); 
@@ -107,7 +106,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST["realizar_pedido"])) {
             box-shadow: 0 4px 15px rgba(0,0,0,0.02);
         }
 
-        /* COLUMNA DE REGALOS (DERECHA) */
         .gifts-sidebar {
             padding: 30px 18px;
             margin: 35px 0;
@@ -160,7 +158,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST["realizar_pedido"])) {
         }
         .btn-submit:hover { background: #a8bfd9; transform: translateY(-1px); }
 
-        /* RESUMEN DE COMPRA */
+        /* Resumen de compra */
         .summary-heading { font-size: 17px; font-weight: 600; margin: 0 0 22px; text-align: center; }
         .summary-item { display: flex; align-items: center; justify-content: center; gap: 12px; margin: 0 auto 15px; max-width: 390px; padding-bottom: 15px; border-bottom: 1px solid #e5e8ef; }
         .summary-img-wrap { position: relative; flex: 0 0 60px; width: 60px; height: 60px; background: #e9edf3; border-radius: 8px; }
@@ -173,7 +171,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST["realizar_pedido"])) {
         .summary-row { display: flex; justify-content: space-between; gap: 12px; font-size: 13px; margin-bottom: 10px; color: #555; }
         .summary-total { display: flex; justify-content: space-between; gap: 12px; font-size: 16px; font-weight: 700; color: #252536; border-top: 1px solid #d8dee8; padding-top: 14px; margin-top: 14px; }
 
-        /* ESTILOS DE TARJETAS DE REGALO */
+        /* Estilos de tarjetas de regalo */
         .gift-title { font-size: 15px; font-weight: 600; margin: 0 0 6px; text-align: center; color: #252536; }
         .gift-subtitle { font-size: 11px; color: #666; text-align: center; margin: 0 0 16px; display: block; }
         .gift-grid { display: flex; flex-direction: column; gap: 10px; }
@@ -284,7 +282,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST["realizar_pedido"])) {
 
     <form method="post" autocomplete="off">
         <div class="checkout-container">
-            <!-- FORMULARIO DE PAGO Y DATOS -->
+            <!-- Formulario de dato y pagos -->
             <main class="main-content">
                 <!-- Contacto -->
                 <h2>Contacto</h2>
@@ -358,7 +356,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST["realizar_pedido"])) {
                 <button type="submit" name="realizar_pedido" class="btn-submit">PAGAR AHORA</button>
             </main>
 
-            <!-- RESUMEN DE COMPRA -->
+            <!-- Resumen de compra -->
             <aside class="sidebar-content">
                 <h2 class="summary-heading">Resumen de tu compra</h2>
                 <?php foreach ($carrito as $item): ?>
@@ -395,7 +393,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST["realizar_pedido"])) {
                 <?php if ($aplica_regalo): ?>
                     <span class="gift-subtitle">¡Alcanzaste los $70 USD! Selecciona 1 opción:</span>
                     <div class="gift-grid">
-                        <!-- OPCIÓN 1 -->
+                        <!-- Regalo 1 -->
                         <label class="gift-card-option">
                             <input type="radio" name="regalo_elegido" value="essential drip mini lip oil" checked>
                             <div class="gift-card-content">
@@ -407,7 +405,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST["realizar_pedido"])) {
                             </div>
                         </label>
 
-                        <!-- OPCIÓN 2 -->
+                        <!-- Regalo 2 -->
                         <label class="gift-card-option">
                             <input type="radio" name="regalo_elegido" value="mini treble maker 3-in-1 mascara">
                             <div class="gift-card-content">
@@ -419,7 +417,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST["realizar_pedido"])) {
                             </div>
                         </label>
 
-                        <!-- OPCIÓN 3 -->
+                        <!-- Regalo 3 -->
                         <label class="gift-card-option">
                             <input type="radio" name="regalo_elegido" value="mist thing mini calming face mist">
                             <div class="gift-card-content">
@@ -431,7 +429,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST["realizar_pedido"])) {
                             </div>
                         </label>
 
-                        <!-- OPCIÓN 4 -->
+                        <!-- Regalo 4 -->
                         <label class="gift-card-option">
                             <input type="radio" name="regalo_elegido" value="full night's sleep cooling blurring undereye balm">
                             <div class="gift-card-content">
