@@ -238,7 +238,7 @@
     <header>
         <a class="logo" href="index.php">
             r.e.m.<small> beauty</small>
-            <span>inspirado en tu brillo</span>
+            <span>by ariana grande</span>
         </a>
         <nav>
             <a class="nav-label" href="new.php">new</a>
@@ -328,7 +328,7 @@
     </main>
 
     <footer>
-        Izquierdo Gaytan Alexander 5°J · r.e.m. beauty by Ariana Grande
+        Izquierdo Gaytan Alexander 5°J · r.e.m. beauty: the everyday artistry brand
     </footer>
 
 </body>
