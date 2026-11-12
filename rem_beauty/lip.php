@@ -259,6 +259,6 @@
         </section>
     </main>
     <?php include "cart_component.php"; ?>
-    <footer>Izquierdo Gaytan Alexander 5°J · r.e.m. beauty by Ariana Grande</footer>
+    <footer>Izquierdo Gaytan Alexander 5°J · r.e.m. beauty: the everyday artistry brand</footer>
 </body>
 </html>
