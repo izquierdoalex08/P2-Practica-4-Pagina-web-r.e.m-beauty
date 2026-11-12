@@ -179,7 +179,7 @@ if ($tiene_envio) {
                 <span class="promo-step">
                     envío gratis 
                     <span class="check-circle <?php echo $tiene_envio ? 'completed' : ''; ?>">
-                        <?php echo $tiene_envio ? '✓' : '🚚'; ?>
+                        <?php echo $tiene_envio ? '✓' : ''; ?>
                     </span>
                 </span>
             </div>
