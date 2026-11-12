@@ -73,9 +73,8 @@
             color: #7896bc;
         }
 
-        /* SECCIÓN HERO (IMAGEN PRINCIPAL MÁS GRANDE) */
         .hero {
-            min-height: 550px; /* <- Aumentado a 550px para hacerla más grande */
+            min-height: 550px; 
             padding: 90px 6%;
             display: flex;
             align-items: center;
@@ -120,7 +119,6 @@
             background: #a8bfd9;
         }
 
-        /* TEXTO INTERMEDIO DEBAJO DEL HERO */
         .hero-subtext {
             text-align: center;
             max-width: 700px;
@@ -144,13 +142,12 @@
             line-height: 1.6;
         }
 
-        /* MOSAICO DE CATEGORÍAS (DESPEGADO DE LA IMAGEN) */
         .category-tiles { 
             display: grid; 
             grid-template-columns: repeat(3, 1fr); 
-            gap: 15px; /* <- Añadido pequeño espacio entre las imágenes */
+            gap: 15px; 
             padding: 0 4%; 
-            margin-top: 30px; /* <- Despegado del hero/texto superior */
+            margin-top: 30px; 
         }
 
         .category-tile { 
@@ -160,7 +157,7 @@
             overflow: hidden; 
             display: block; 
             background: #e7e7e9; 
-            border-radius: 12px; /* Redondeado suave acorde a los cambios */
+            border-radius: 12px; 
         }
 
         .category-tile img { 
@@ -185,7 +182,6 @@
             text-shadow: 0 2px 12px rgba(0,0,0,0.5); 
         }
 
-        /* HISTORIA DE MARCA */
         .brand-story { 
             text-align: center; 
             max-width: 820px; 
@@ -252,7 +248,7 @@
     <header>
         <a class="logo" href="index.php">
             r.e.m.<small> beauty</small>
-            <span>inspirado en tu brillo</span>
+            <span>by ariana grande</span>
         </a>
         <nav>
             <a class="nav-label" href="new.php">new</a>
