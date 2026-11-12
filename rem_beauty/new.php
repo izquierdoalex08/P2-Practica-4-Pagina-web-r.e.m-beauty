@@ -43,7 +43,7 @@
 <body>
     <div class="promo">✨ regalo especial en compras seleccionadas ✨</div>
     <header>
-        <a class="logo" href="index.php">r.e.m.<small> beauty</small><span>inspirado en tu brillo</span></a>
+        <a class="logo" href="index.php">r.e.m.<small> beauty</small><span>by ariana grande</span></a>
         <nav>
             <a class="nav-label" href="new.php">new</a>
             <a class="nav-label" href="best.php">best sellers</a>
@@ -260,6 +260,6 @@
         </section>
     </main>
     <?php include "cart_component.php"; ?>
-    <footer>Izquierdo Gaytan Alexander 5°J · r.e.m. beauty by Ariana Grande</footer>
+    <footer>Izquierdo Gaytan Alexander 5°J · r.e.m. beauty: the everyday artistry brand</footer>
 </body>
 </html>
