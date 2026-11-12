@@ -43,7 +43,7 @@
 <body>
     <div class="promo">✨ regalo especial en compras seleccionadas ✨</div>
     <header>
-        <a class="logo" href="index.php">r.e.m.<small> beauty</small><span>inspirado en tu brillo</span></a>
+        <a class="logo" href="index.php">r.e.m.<small> beauty</small><span>by ariana grande</span></a>
         <nav>
             <a class="nav-label" href="new.php">new</a>
             <a class="nav-label" href="best.php">best sellers</a>
