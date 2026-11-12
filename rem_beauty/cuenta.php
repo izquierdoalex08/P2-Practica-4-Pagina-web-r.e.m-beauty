@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>r.e.m. beauty — Cuenta</title>
     <style>
+        <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+        
         * {
             box-sizing: border-box;
         }
@@ -210,7 +212,8 @@
             background: #dce6f1;
             padding: 28px;
             font-size: 13px;
-            width: 100%;
+            font-family: 'Space Mono', monospace;
+            letter-spacing: 1.5px;
         }
 
         @media(max-width:850px) {
