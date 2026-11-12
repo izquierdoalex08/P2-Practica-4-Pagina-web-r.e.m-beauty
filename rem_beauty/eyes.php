@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>r.e.m. beauty — Eyes</title>
     <style>
+        <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
         * { box-sizing: border-box; }
         body { margin: 0; font-family: Arial, sans-serif; color: #252536; background: #fff; }
         .promo { text-align: center; background: #edf2f8; padding: 10px; font-size: 13px; }
@@ -35,7 +36,14 @@
         .product button { width: 100%; margin-top: 10px; font-size: 12px; }
         .user-bar { background: #f2f5fa; text-align: right; padding: 8px 4%; font-size: 12px; color: #536e94; }
         .user-bar a { margin-left: 12px; text-decoration: underline; }
-        footer { text-align: center; background: #dce6f1; padding: 28px; font-size: 13px; margin-top: 40px; }
+        footer {
+            text-align: center;
+            background: #dce6f1;
+            padding: 28px;
+            font-size: 13px;
+            font-family: 'Space Mono', monospace;
+            letter-spacing: 1.5px;
+        }
         @media(max-width:850px) { header { align-items: flex-start; flex-direction: column; } .products { grid-template-columns: repeat(2, minmax(0, 1fr)); } .photo { height: 210px; } }
         @media(max-width:460px) { nav { gap: 12px; font-size: 13px; } .products { gap: 10px; } .photo { height: 160px; } }
     </style>
